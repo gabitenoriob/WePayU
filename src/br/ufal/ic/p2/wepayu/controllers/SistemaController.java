@@ -7,7 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-import br.ufal.ic.p2.wepayu.models.Empregado;
+import br.ufal.ic.p2.wepayu.models.empregado.Empregado;
 
 public class SistemaController {
     public static LinkedHashMap<String, Empregado> empregados = new LinkedHashMap<String, Empregado>();

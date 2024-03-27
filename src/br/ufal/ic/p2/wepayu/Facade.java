@@ -19,7 +19,7 @@ public class Facade {
         SistemaController.encerrarSistema();
     }
 
-    public  void alteraEmpregado(String emp,String atributo, String valor) throws NaoComissionado, SalarioNulo, AtributoNaoExiste, TipoInvalido, EnderecoNulo, MetodoInvalido, ComissaoNumerica, EmpregadoNaoExisteException, NomeNulo, SalarioNumerico, ComissaoPositiva, SalarioPositivo, ComissaoNula, IdentificacaoNula, ValorTrueFalse, AgendaNaoDisponivel {
+    public  void alteraEmpregado(String emp,String atributo, String valor) throws Exception {
         EmpregadoController.alteraAtributoEmpregado(emp, atributo, valor);
     }
     
@@ -28,7 +28,7 @@ public class Facade {
    }
     
     public void alteraEmpregado(String emp, String atributo, String valor, String idSindicato, String taxaSindical) throws IdentificacaoRepetida, IdSindicatoNula, TaxaNula, TaxaNegativa, TaxaNumerica, ValorTrueFalse {
-        EmpregadoController.alteraEmpregadoSindicalizado(emp, "sindicalizado", true, idSindicato, taxaSindical);
+        EmpregadoController.alteraEmpregadoSindicalizado(emp, atributo, valor, idSindicato, taxaSindical);
     }
     
     public void alteraEmpregado(String emp, String atributo, String valor1, String banco, String agencia, String contaCorrente) throws BancoNulo, AgenciaNula, ContaNula, EmpregadoNaoExisteException, IdentificacaoNula {
@@ -78,7 +78,7 @@ public class Facade {
     }
 
 
-    public String criarEmpregado(String nome, String endereco, String tipo, String salario) throws EmpregadoNaoExisteException, SalarioNulo, TipoInvalido, EnderecoNulo, SalarioNumerico, NomeNulo, SalarioPositivo, TipoNaoAplicavel {
+    public String criarEmpregado(String nome, String endereco, String tipo, String salario) throws Exception {
         return EmpregadoController.criarEmpregado(nome,endereco,tipo,salario);
     }
 

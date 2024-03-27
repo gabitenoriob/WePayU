@@ -1,17 +1,5 @@
 package br.ufal.ic.p2.wepayu.models;
 
-import br.ufal.ic.p2.wepayu.models.Empregado;
-import br.ufal.ic.p2.wepayu.utils.convertDoubleToString;
-import br.ufal.ic.p2.wepayu.utils.utilsFolha.ehSexta;
-import br.ufal.ic.p2.wepayu.utils.utilsFolha.ehUltimoDiaMes;
-import br.ufal.ic.p2.wepayu.utils.utilsFolha.getUltimaSexta;
-import br.ufal.ic.p2.wepayu.controllers.*;
-
-import javax.xml.stream.XMLStreamReader;
-
-import java.io.*;
-import java.util.*;
-
 public class Folha {
 
     
