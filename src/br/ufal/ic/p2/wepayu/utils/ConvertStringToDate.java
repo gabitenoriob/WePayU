@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.ResolverStyle;
 
-public class convertStringToDate {
+public class ConvertStringToDate {
     public static LocalDate convertStringToDate(String dataString, int metodo){
      DateTimeFormatter dateFormatter0 = DateTimeFormatter.ofPattern("d/M/yyyy").withResolverStyle(ResolverStyle.STRICT);
      DateTimeFormatter dateFormatter1 = DateTimeFormatter.ofPattern("yyyy-MM-dd").withResolverStyle(ResolverStyle.STRICT);

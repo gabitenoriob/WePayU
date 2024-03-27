@@ -1,8 +1,8 @@
 package br.ufal.ic.p2.wepayu.controllers;
 
 import br.ufal.ic.p2.wepayu.exceptions.*;
-import br.ufal.ic.p2.wepayu.models.Servico;
-import br.ufal.ic.p2.wepayu.models.Sindicato;
+import br.ufal.ic.p2.wepayu.models.empregado.Servico;
+import br.ufal.ic.p2.wepayu.models.empregado.Sindicato;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -47,7 +47,7 @@ public class ServicoController {
 
     public static String getTaxasServico(String emp, String dataInicial, String dataFinal) throws Exception {
         double taxasServico = 0;
-        if(!empregados.get(emp).isSindicalizado()) throw new NaoSindicalizado();
+        if(!(empregados.get(emp).getSindicato() == null)) throw new NaoSindicalizado();
 
         String[] diaMesAnoStrI = dataInicial.split("/");
         ArrayList<Integer> diaMesAnoI = new ArrayList<Integer>();

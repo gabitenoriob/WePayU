@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import br.ufal.ic.p2.wepayu.utils.convertDoubleToString;
+import br.ufal.ic.p2.wepayu.utils.ConvertDoubleToString;
 import br.ufal.ic.p2.wepayu.utils.utilsFolha.convertStringToStringFolha;
 
 public class FolhaController {
@@ -128,7 +128,7 @@ try (BufferedReader br = new BufferedReader(new FileReader(basePath + "/ok/folha
         }
 
 
-        return convertDoubleToString.convertDoubleToString(total,2);
+        return ConvertDoubleToString.convertDoubleToString(total,2);
     }
 
     private static double extractTotal(String line) {

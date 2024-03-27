@@ -1,7 +1,7 @@
 package br.ufal.ic.p2.wepayu.controllers;
 
 import br.ufal.ic.p2.wepayu.exceptions.*;
-import br.ufal.ic.p2.wepayu.models.Ponto;
+import br.ufal.ic.p2.wepayu.models.empregado.Ponto;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

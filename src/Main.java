@@ -6,15 +6,15 @@ public class Main {
     public static void main(String[] args) {
       String facade = "br.ufal.ic.p2.wepayu.Facade";
       //OK NAO MEXER  
-      //EasyAccept.main(new String[]{facade, "tests/us1.txt"});
+//      EasyAccept.main(new String[]{facade, "tests/us1.txt"});
 
 
       // OK NAO MEXER ==  SEM PERSISTENCIA
-    //  EasyAccept.main(new String[]{facade, "tests/us1_1.txt"});
+//      EasyAccept.main(new String[]{facade, "tests/us1_1.txt"});
 
 
      //OK NAO MEXER 
-     //EasyAccept.main(new String[]{facade, "tests/us2.txt"});
+     EasyAccept.main(new String[]{facade, "tests/us2.txt"});
 
 
       //OK NAO MEXER == SEM PERSISTENCIA
@@ -42,13 +42,13 @@ public class Main {
 //EasyAccept.main(new String[]{facade, "tests/us5_1.txt"});
  
  // OK NAO MEXER
- //EasyAccept.main(new String[]{facade, "tests/us6.txt"}); 
+// EasyAccept.main(new String[]{facade, "tests/us6.txt"});
 
  //OK NAO MEXER SEM PERSISTENCIA - falta 1  
   //EasyAccept.main(new String[]{facade, "tests/us6_1.txt"});
 
 
-EasyAccept.main(new String[]{facade, "tests/us7.txt"});
+//EasyAccept.main(new String[]{facade, "tests/us7.txt"});
 
 
  // ta dando td retorno nulo
