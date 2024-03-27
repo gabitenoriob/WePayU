@@ -1,8 +1,8 @@
 package br.ufal.ic.p2.wepayu.controllers;
 
 import br.ufal.ic.p2.wepayu.exceptions.*;
-import br.ufal.ic.p2.wepayu.models.Empregado;
-import br.ufal.ic.p2.wepayu.models.Venda;
+import br.ufal.ic.p2.wepayu.models.empregado.Empregado;
+import br.ufal.ic.p2.wepayu.models.empregado.Venda;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

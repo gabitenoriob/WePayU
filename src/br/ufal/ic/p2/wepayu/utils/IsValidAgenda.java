@@ -1,6 +1,6 @@
 package br.ufal.ic.p2.wepayu.utils;
 
-public class isValidAgenda {
+public class IsValidAgenda {
     public boolean isValidAgenda(String agenda) throws Exception{
 
 
