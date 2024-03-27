@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
       String facade = "br.ufal.ic.p2.wepayu.Facade";
       //OK NAO MEXER  
-      EasyAccept.main(new String[]{facade, "tests/us1.txt"});
+//      EasyAccept.main(new String[]{facade, "tests/us1.txt"});
 
 
       // OK NAO MEXER ==  SEM PERSISTENCIA
@@ -14,7 +14,7 @@ public class Main {
 
 
      //OK NAO MEXER 
-     //EasyAccept.main(new String[]{facade, "tests/us2.txt"});
+     EasyAccept.main(new String[]{facade, "tests/us2.txt"});
 
 
       //OK NAO MEXER == SEM PERSISTENCIA

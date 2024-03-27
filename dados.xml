@@ -8,99 +8,16 @@
    <string>Rua dos Jooes, 333 - Campina Grande</string>
   </void>
   <void property="id">
-   <string>d7d41159-21bf-439e-8757-c8e91ef433e3</string>
+   <string>d08bf755-09ac-4c51-b318-1042798617d5</string>
   </void>
   <void property="metodoPagamento">
    <object class="br.ufal.ic.p2.wepayu.models.empregado.MetodoPagamentoEmMaos"/>
   </void>
   <void property="nome">
-   <string>Joao da Silva</string>
+   <string>Maria</string>
   </void>
   <void property="salario">
    <double>23.0</double>
-  </void>
- </object>
- <object class="br.ufal.ic.p2.wepayu.models.empregado.EmpregadoHorista">
-  <void property="agendaPagamento">
-   <string>semanal 5</string>
-  </void>
-  <void property="endereco">
-   <string>Rua dos Jooes, 333 - Campina Grande</string>
-  </void>
-  <void property="id">
-   <string>f27f747f-ce90-4550-98da-ae21c46f9a66</string>
-  </void>
-  <void property="metodoPagamento">
-   <object class="br.ufal.ic.p2.wepayu.models.empregado.MetodoPagamentoEmMaos"/>
-  </void>
-  <void property="nome">
-   <string>Joao da Silva</string>
-  </void>
-  <void property="salario">
-   <double>23.0</double>
-  </void>
- </object>
- <object class="br.ufal.ic.p2.wepayu.models.empregado.EmpregadoHorista">
-  <void property="agendaPagamento">
-   <string>semanal 5</string>
-  </void>
-  <void property="endereco">
-   <string>Rua dos Jooes, 333 - Campina Grande</string>
-  </void>
-  <void property="id">
-   <string>db04b5d3-7628-4131-bed1-faf3b70f551c</string>
-  </void>
-  <void property="metodoPagamento">
-   <object class="br.ufal.ic.p2.wepayu.models.empregado.MetodoPagamentoEmMaos"/>
-  </void>
-  <void property="nome">
-   <string>Joao da Silva</string>
-  </void>
-  <void property="salario">
-   <double>23.32</double>
-  </void>
- </object>
- <object class="br.ufal.ic.p2.wepayu.models.empregado.EmpregadoAssalariado">
-  <void property="agendaPagamento">
-   <string>mensal $</string>
-  </void>
-  <void property="endereco">
-   <string>Rua das Marias, 333 - Campina Grande</string>
-  </void>
-  <void property="id">
-   <string>5578baff-8c31-4505-9367-504e9c201fe1</string>
-  </void>
-  <void property="metodoPagamento">
-   <object class="br.ufal.ic.p2.wepayu.models.empregado.MetodoPagamentoEmMaos"/>
-  </void>
-  <void property="nome">
-   <string>Mariazinha</string>
-  </void>
-  <void property="salario">
-   <double>2300.45</double>
-  </void>
- </object>
- <object class="br.ufal.ic.p2.wepayu.models.empregado.EmpregadoComissionado">
-  <void property="agendaPagamento">
-   <string>semanal 2 5</string>
-  </void>
-  <void property="comissao">
-   <double>0.05</double>
-  </void>
-  <void property="endereco">
-   <string>Rua dos Bufoes, 333 - Campina Grande</string>
-  </void>
-  <void property="id">
-   <string>8af09366-0275-4587-9d48-9d7c9bfdaf49</string>
-  </void>
-  <void property="metodoPagamento">
-   <object class="br.ufal.ic.p2.wepayu.models.empregado.MetodoPagamentoEmMaos"/>
-  </void>
-  <void property="nome">
-   <string>Gaiato Vendedor</string>
-  </void>
-  <void property="salario">
-   <double>2300.45</double>
   </void>
  </object>
 </java>
